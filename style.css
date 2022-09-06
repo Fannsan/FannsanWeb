@@ -1,0 +1,78 @@
+
+
+body {
+
+    color: rgb(20, 42, 14);
+    background-color: rgb(236, 239, 236);
+    margin-right: 80px;
+
+}
+
+h1 {
+    color: rgb(160, 126, 159);
+    border-style: dotted;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Arial;
+
+  }
+
+img{
+    height: 300px;
+    padding: 10px;
+    float: left;
+    
+}
+
+p{
+    color:rgb(160, 126, 159)
+    line-height: 30px;
+    letter-spacing: 3px;
+
+  
+
+}
+
+ul{
+    border-width: 4;
+    border-style: solid;
+    border-color: rgb(200, 123, 199);
+}
+
+li{
+    list-style-type: square;
+    text-shadow: 2px 2px rgb(139, 136, 134)
+}
+
+
+p.error{
+    color: rgb(180, 20, 20);
+}
+/* . betyder att du anropar klass */
+.sucsess{
+    color: blue;
+    border: dotted;
+}
+
+/* # anropar id*/
+#content 
+{
+    color: brown;
+}
+ 
+
+div p{
+    color:aquamarine
+}
+
+a[href]{
+    background-color: rgb(185, 246, 207);
+}
+
+aside {
+    float: right;
+    color: brown;
+    border-style: dotted;
+    font-family: Helvetica;
+}
